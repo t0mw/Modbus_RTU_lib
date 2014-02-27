@@ -1,0 +1,21 @@
+Modbus_RTU_lib - scalable, platform independent Modbus RTU library.
+
+What's done:
+
+	Slave mode:
+	- read/write holding registers
+	- read input registers
+
+	Master mode:
+	- none
+
+TODO:
+
+	Slave mode:
+	- read/set coils (?)
+	
+	Master mode:
+	- all
+
+AVR_test - simple library test with AVR ATmega8. ex_use.c is a Modbus RTU slave, with 16 holding and 16 input registers, and baudrate 600.
+
