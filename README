@@ -17,5 +17,8 @@ TODO:
 	Master mode:
 	- all
 
-AVR_test - simple library test with AVR ATmega8. ex_use.c is a Modbus RTU slave, with 16 holding and 16 input registers, and baudrate 600.
+AVR_test - simple library test with AVR ATmega8. ex_use.c is a Q&D Modbus RTU slave, with 16 holding, 16 input registers and baudrate set to 600.
 
+Notes:
+
+	CRC checking disabled for testing purposes.

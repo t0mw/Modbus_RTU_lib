@@ -70,6 +70,7 @@ uint8_t half_chars_passed_count( void ) {
 }
 
 /*
+	Quick and dirty Modbus RTU lib example.
 	modpoll -m rtu -r 1 -c 16 -l 2000 -o 2 -b 600 -t 4:hex -p none COM7
 */
 int main( void ) {
